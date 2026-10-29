@@ -2,7 +2,7 @@ import os, re, json, random, subprocess, asyncio, requests, edge_tts
 
 GEMINI_KEY = os.environ["GEMINI_API_KEY"]
 PIXABAY_KEY = os.environ["PIXABAY_API_KEY"]
-MODEL = "gemini-2.5-flash"
+MODEL = "gemini-3.8-flash"
 SCENES = 6
 VOICE = "en-US-GuyNeural"
 OUT = "output"
